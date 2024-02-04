@@ -9,6 +9,9 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <script src="https://cdn.jsdelivr.net/npm/purecounter.js"></script>
+
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -24,8 +27,34 @@
   <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
   
     <!-- Include FontAwesome -->
@@ -154,6 +183,93 @@
     .paragraph-container p {
       margin-bottom: 15px;
     }
+
+
+    .footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links ul li i {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+
+
+
+
+
+.services {
+      padding: 80px 0;
+    }
+
+    .services .icon-box {
+      background: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease-in-out;
+      cursor: pointer;
+    }
+
+    .services .icon-box:hover {
+      transform: translateY(-6px);
+    }
+
+    .services .icon-box .icon {
+      margin: 0 auto 20px auto;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: #f5f5f5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .services .icon-box:hover .icon {
+      background: #6c757d;
+    }
+
+    .services .icon-box .icon svg {
+      width: 40px;
+      height: 40px;
+      fill: #6c757d;
+    }
+
+    .services .icon-box:hover .icon svg {
+      fill: #fff;
+    }
+
+    .services .icon-box h4 {
+      font-weight: 700;
+      font-size: 20px;
+      margin-bottom: 10px;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .services .icon-box:hover h4 {
+      color: #6c757d;
+    }
+
+    .services .icon-box p {
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 0;
+    }
+
 </style>
 
 
@@ -197,24 +313,24 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Elevator</a></li>
+              <li class="dropdown"><a href="#"><span>Electrical</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <!-- <li><a href="#">Elevator</a></li> -->
+                  <li><a href="#">CONTROL PANELS</a></li>
+                  <li><a href="#">FIRE ALARAM</a></li>
+                  <li><a href="#">MCC PANELS</a></li>
+                  <li><a href="#">DDC PANELS</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Mechanical</a></li>
+              <li><a href="#">Trading</a></li>
+              <!-- <li><a href="#">Drop Do</a></li> -->
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -305,6 +421,250 @@
 
 
 
+    <!-- ======= Why Us Section ======= -->
+    <!-- <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>01</span>
+            <h4>Lorem Ipsum</h4>
+            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>02</span>
+            <h4>Repellat Nihil</h4>
+            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>03</span>
+            <h4> Ad ad velit qui</h4>
+            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>04</span>
+            <h4>Repellendus molestiae</h4>
+            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>05</span>
+            <h4>Sapiente Magnam</h4>
+            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item">
+            <span>06</span>
+            <h4>Facilis Impedit</h4>
+            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>< End Why Us Section -->
+<!--
+    <!======= Our Clients Section ======= -->
+    <!-- <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our Clients</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>End Our Clients Section  -->
+
+    <!-- ======= Services Section ======= -->
+    <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>EuroGreen</h2>
+        <p>In The Field</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mt-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">Building Maintenance</a></h4>
+          </div>
+        </div>
+
+        
+       
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">Cabling system & Maintenance</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-3" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">ELV Works & Lightning Protection</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-3"  data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">Elevator & Esculator Works</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">Fire Alarm & Fire Fighting</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">BMS Works & Plumbing</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">CCTV Work & Maintenance</a></h4>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch  mt-5" data-aos="zoom-in" data-aos-delay="100">
+          <div class="icon-box iconbox-blue">
+            <div class="icon">
+              <svg width="400" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                <path stroke="none" stroke-width="0" fill="#f5f5f5"
+                  d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+              </svg>
+              <i class="bx bxl-dribbble"></i>
+            </div>
+            <h4><a href="">MEP  & Ventilation Works</a></h4>
+          </div>
+        </div>
+
+        <!-- Add more col-lg-3 elements with proper content for other services -->
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<div class="row justify-content-end">
+  <div class="col-lg-11">
+    <div class="row justify-content-end">
+
+      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+        <div class="count-box">
+          <i class="bi bi-emoji-smile"></i>
+          <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+        <div class="count-box">
+          <i class="bi bi-journal-richtext"></i>
+          <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Projects</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+        <div class="count-box">
+          <i class="bi bi-clock"></i>
+          <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Years of experience</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+        <div class="count-box">
+          <i class="bi bi-award"></i>
+          <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Awards</p>
+        </div>
+      </div> -->
+
 
 
 
@@ -332,27 +692,27 @@
                 
                   <ol>
                     <li>
-                      <i class="fas fa-check"></i>
+                      <!-- <i class="fas fa-check"></i> -->
                       <p>To deliver fair Value and Quality to specification across our MEP installations in a timely manner.</p>
                     </li>
                 
                     <li>
-                      <i class="fas fa-check"></i>
+                      <!-- <i class="fas fa-check"></i> -->
                       <p>To deliver our MEP objective with Zero Defects and Zero Injuries continuously improving the quality of our work and services.</p>
                     </li>
                 
                     <li>
-                      <i class="fas fa-check"></i>
+                      <!-- <i class="fas fa-check"></i> -->
                       <p>Constantly striving to achieve the client’s expectations.</p>
                     </li>
                 
                     <li>
-                      <i class="fas fa-check"></i>
+                      <!-- <i class="fas fa-check"></i> -->
                       <p>Maintaining our dedication & momentum to the highest moral principles.</p>
                     </li>
                 
                     <li>
-                      <i class="fas fa-check"></i>
+                      <!-- <i class="fas fa-check"></i> -->
                       <p>Providing our people with a challenging, secure and safe environment in which to achieve personal career goals</p>
                     </li>
                   </ol>
@@ -564,14 +924,14 @@ result(s) of its Quality .
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-blue">
-              <div class="icon ">
-                <img src="img/image10.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon " style="margin-top: 70px; margin-bottom: 70px; ">
+                <img src="img/image10.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4">
               </div>
 
 
               <h4 class="mt-5"  ><a href="">Electrical Division</a></h4>
               
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Low Current, Control Panels, Fire Alarm</p>
             </div>
           </div>
           
@@ -579,50 +939,53 @@ result(s) of its Quality .
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-orange ">
-              <div class="icon ">
-                <img src="img/image4.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon" style="margin-top: 70px; margin-bottom: 70px;">
+                <img src="img/image4.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4 ">
               </div>
               <h4  class="mt-5"><a href="">Mechanical Division</a></h4>
-              <p>Duis aute irure /dolor in / in voluptate velit esse cillum dolore</p>
+              <p>HVAC & Ducting, Plumbing & Drainage, Industrial works, Fire Fighting,Plumbs Work</p>
+
+              
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-pink">
-              <div class="icon ">
-                <img src="img/image1.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon " style="margin-top: 70px; margin-bottom: 70px;">
+                <img src="img/image1.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4">
               </div>
               <h4  class="mt-5"><a href="">Storage Division</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Industrial Storage,Commercial Storage System,Tire Storage</p>
+
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box iconbox-yellow">
-              <div class="icon ">
-                <img src="img/image6.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon " style="margin-top: 70px; margin-bottom: 70px;">
+                <img src="img/image6.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4">
               </div>
               <h4  class="mt-5"><a href="">Civil Division</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Storage Solutions, Civil Works,Ceiling Works</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box iconbox-red">
-              <div class="icon ">
-                <img src="img/about-boxes-2.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon " style="margin-top: 70px; margin-bottom: 70px;">
+                <img src="img/about-boxes-2.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4">
               </div>
               <h4  class="mt-5"><a href="">Trading Division</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <p> Building Materials, Flow Meter, Pipes & Fittings,</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box iconbox-teal">
-              <div class="icon ">
-                <img src="img/hero-bg.jpg" alt="Electrical Division Image" class="rounded-image mb-5">
+              <div class="icon "style="margin-top: 70px; margin-bottom: 70px;" >
+                <img src="img/hero-bg.jpg" alt="Electrical Division Image" class="rounded-image mb-5 mt-4">
               </div>
-              <h4  class="mt-5"><a href="">Commercial Storage Division</a></h4>
+              <h4  class="mt-5" style="margin-top: 700px;"><a href="">Commercial Storage Division</a></h4>
               <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
             </div>
           </div>
@@ -701,6 +1064,184 @@ result(s) of its Quality .
 
       </div>
     </section><!-- End Team Section -->
+
+
+
+
+     <!-- ======= Portfolio Section ======= -->
+     <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/testimonials-bg.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="img/image1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a> 
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/image2.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="img/image5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/image3.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="img/image4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/image5.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/image6.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="img/image5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/image7.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/image8.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/image9.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/image10.jpg" class="img-fluid" alt="">
+              <!-- <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -781,27 +1322,77 @@ result(s) of its Quality .
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="container">
-      <h3>EuroGreen</h3>
-      <p>Develop and continually improve the Quality Management System
-      </p>
-      <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>EURO GREEN</h3>
+              <p>
+                A108 Adam Street <br>
+                Guindy, Chennai<br><br>
+                <strong>Phone:</strong> +974 5590 5757,<br>
+                <strong>Email:</strong> info@eurogreenqatar.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul class="list-unstyled m-5">
+              <li><i class='bx bx-home'></i> <a href="#">Home</a></li>
+              <li><i class='bx bx-info-circle'></i> <a href="#">About </a></li>
+              <li><i class='bx bx-cog'></i> <a href="#">Services</a></li>
+              <li><i class='bx bx-book'></i> <a href="#">Team</a></li>
+              <li><i class='bx bx-shield'></i> <a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul class="list-unstyled m-5">
+              <li><i class="fas fa-cogs"></i> <a href="#">Mechanical Division</a></li>
+              <li><i class="fas fa-bolt "></i> <a href="#"> Electrical Division</a></li>
+              <li><i class="fas fa-city"></i> <a href="#">Civil Division</a></li>
+              <li><i class="fas fa-shopping-cart"></i> <a href="#">Trading Division</a></li>
+              <li><i class="fas fa-arrow-alt-circle-up"></i> <a href="#">Elevator Division</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
       </div>
+    </div>
+
+    <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>www.eurogreenqatar.com</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EUROGREEN</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/green-free-one-page-bootstrap-template/ -->
-        Designed by <a href="">Shalom Infotech</a>
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/ -->
+        Designed by <a href=""> Shalom InfoTech</a>
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -809,14 +1400,25 @@ result(s) of its Quality .
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/glightbox/js/glightbox.min.js"></script>
   <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="vendor/swiper/swiper-bundle.min.js"></script>
   <script src="vendor/php-email-form/validate.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/purecounter.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="js/main.js"></script>
+
+  
+ 
+
 
 </body>
 
